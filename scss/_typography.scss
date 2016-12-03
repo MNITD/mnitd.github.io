@@ -1,0 +1,102 @@
+// --------------------------------------------------
+// TM Typography
+// --------------------------------------------------
+// Body reset
+// --------------------------------------------------
+html {
+    font-size: 25px; // static//10px
+    //font-family: sans-serif;
+}
+
+body {
+    color: $colorText;
+    margin: 0;
+}
+
+// Links
+// -------------------------
+a,
+.link {
+    font-size: 1.4rem;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: $colorLink;
+    &:hover,
+    &:focus {
+        text-decoration: underline;
+    }
+}
+
+// Typography
+// --------------------------------------------------
+// Body text
+// -------------------------
+p {
+    font-size: 1.8rem;
+    font-family: 'Open Sans', sans-serif;
+    color: $colorText;
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+// Headings
+// -------------------------
+h1,
+h2,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: $colorText;
+}
+
+h1 {
+    font-size: 4.8rem;
+    font-family: 'Merriweather', serif;
+    margin: 0;
+}
+
+h2 {
+    font-size: 3.6rem;
+    font-family: 'Merriweather', serif;
+    margin: 0 0 3rem 0;
+}
+
+h3 {
+    font-size: 2.4rem;
+    font-family: 'Merriweather', serif;
+    margin: 0;
+}
+
+h4 {
+    font-size: 2.2rem;
+    font-family: 'Merriweather', serif;
+    margin: 0;
+}
+
+h5 {
+    font-size: 1.4rem;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 0 10rem 0;
+}
+
+h6 {
+    font-size: 1.4rem;
+    font-family: 'Merriweather', serif;
+    margin: 0;
+}
+
+.quote {
+    font-size: 2.2rem;
+    color: $colorText;
+}
+
+.small-text {
+    font-size: 1.6rem; //1.6rem
+}
+
+
