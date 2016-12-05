@@ -1,0 +1,83 @@
+.logo{
+    
+}
+
+.menu{
+    float: right;
+}
+
+.bg{
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    user-select: none;
+}
+
+.car-front-center{
+    padding: $topSectionPadding;
+    background-image: url(../img/car-front-center.png);
+    
+}
+.cars-by-sides{
+    background-image: url(../img/cars-by-sides.png);
+}
+.car-front-right{
+    background-image: url(../img/car-front-right.png);
+}
+.tachometer{
+    background-image: url(../img/tachometer.png);
+}
+.price{
+    font-size: 12.5rem;
+    font-weight: 100;
+    color:$third;
+}
+
+.social{
+    float: right;
+    
+    i{
+        margin: 0 1rem;
+        display: inline-block;
+    }
+}
+
+// Flex
+// ---------------------------------------------------
+.flex-container{
+    display: flex;
+}
+.flex-container-column{
+    flex-direction: column;
+}
+.flex-container-end{
+    justify-content:flex-end;
+}
+.flex-container-center{
+    justify-content:center;
+}
+.flex-container-sb{
+    justify-content:space-between;
+}
+
+// Other
+// ---------------------------------------------------
+.text-center{
+    text-align: center;
+}
+.color-prime{
+    color:$prime;
+}
+.color-second{
+    color:$second;
+}
+.color-third{
+    color: $third;
+}
+.circle{
+    border-radius: 50%;
+}
+.circle-middle{
+    height: 18rem;
+    width: 18rem;
+}

@@ -48,35 +48,56 @@ $tintYellow: 			#f0b05e;
 $pastelYellow: 		#fbe8d1;
 
 // Reds
+$pink:                 #ea0d60;
 
 // Brand Colors
-$prime: 					$green;
-$second:					$darkGray;
-$third:						$yellow;
+$prime: 					$black;
+$second:					$white;
+$third:						$pink;
 
 // Link Colors
 $colorLink: 			$prime;
 
 // Content Colors
-$colorText: 			$darkGray;
+$colorText: 			$second;
 
 // Header
 // -------------------------
-$headerHeight: 10rem;
-$headerPadding: 0 12.5rem 0 12.5rem; 
+$headerHeight: 11rem;
+$headerPadding: 3rem 4.5rem 0 4.5rem; 
 
-$headerMobHeight: 5rem;
-$headerMobPadding: 0 3.75rem 0 3.75rem;
+//$headerMobHeight: 5rem;
+//$headerMobPadding: 0 3.75rem 0 3.75rem;
 
-// Contact Section
+// Top Section
 // -------------------------
-$contactPadding: 0 20rem;
+$topSectionHeight: 67rem;
+$topSectionPadding: 23.5rem 0 0 0;
 
-// Header-Jumbotron Section
+// Overview Section
 // -------------------------
-$headerJumbotronHeight: 70rem;
-$headerJumbotronMargin: 0; 
-$headerJumbotronMarginH1: 9rem 0 9rem 0;
+$overviewSectionHeight: 95.6rem;
+//$overviewSectionPadding: 15rem 0 0 0;
+
+// Buy Now Section
+// -------------------------
+$buyNowSectionHeight: 24.6rem;
+$buyNowSectionPadding: 9rem 0 0 0;
+
+// Details Section
+// -------------------------
+$detailsSectionHeight: 170.2rem;
+//$detailsSectionPadding: $overviewSectionPadding;
+
+// Request Call Section
+// -------------------------
+$requestCallSectionHeight: 83.4rem;
+//$requestCallSectionPadding: $overviewSectionPadding;
+
+// Footer
+// -------------------------
+$footerHeight: 55.8rem;
+
 
 // Navbar
 // -------------------------
@@ -109,7 +130,7 @@ $bntRadius: 3rem;
 
 // Structure updated
 // --------------------------------------------------
-$mainContainer: 140rem;
+$containerPadding: 15rem 36.6rem 0 36.6rem;
 
 // Indents updated
 // --------------------------------------------------
@@ -118,7 +139,4 @@ $containerVerIndent: 10rem;
 
 $containerMobHorIndent: 4.6rem;
 $containerMobVerIndent: 4rem;
-
-// Footer indent
-// --------------------------------------------------
 

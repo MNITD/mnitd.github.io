@@ -1,0 +1,39 @@
+header{
+    height: $headerHeight;
+    width: 100%;
+    padding: $headerPadding;
+    background-color: transparent;
+    position: fixed;
+}
+.section-top{
+    height: $topSectionHeight;
+    background-color: $prime;
+}
+.section-overview{
+    height: $overviewSectionHeight;
+//    padding: $overviewSectionPadding;
+    background-color: $second;
+}
+.section-buy-now{
+    height: $buyNowSectionHeight;
+    padding: $buyNowSectionPadding;
+    background-color: $prime;
+}
+.section-details{
+    height: $detailsSectionHeight;
+//    padding: $detailsSectionPadding;
+    background-color: $second;
+}
+.section-request-call{
+    height: $requestCallSectionHeight;
+//    padding: $requestCallSectionPadding;
+    background-color: $prime;
+}
+footer{
+    height: $footerHeight;
+    background-color: $prime;
+}
+
+.container{
+    padding: $containerPadding;
+}
