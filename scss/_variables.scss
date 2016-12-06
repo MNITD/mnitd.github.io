@@ -72,7 +72,7 @@ $headerPadding: 3rem 4.5rem 0 4.5rem;
 // Top Section
 // -------------------------
 $topSectionHeight: 67rem;
-$topSectionPadding: 23.5rem 0 0 0;
+$topSectionPadding: 33.5rem 0 0 0;
 
 // Overview Section
 // -------------------------
@@ -130,7 +130,10 @@ $bntRadius: 3rem;
 
 // Structure updated
 // --------------------------------------------------
-$containerPadding: 15rem 36.6rem 0 36.6rem;
+$containerPaddingXS: 10rem 16.6rem 0 16.6rem;
+$containerPaddingSM: 12rem 19.6rem 0 19.6rem;
+$containerPaddingMD: 13rem 23.6rem 0 23.6rem;
+$containerPaddingLG: 15rem 36.6rem 0 36.6rem;
 
 // Indents updated
 // --------------------------------------------------

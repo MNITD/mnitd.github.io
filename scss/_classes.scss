@@ -1,89 +1,164 @@
-.logo{
-    
-}
+.logo {}
 
-.menu{
+.menu {
     float: right;
 }
 
-.bg{
+.bg {
     height: 100%;
     background-repeat: no-repeat;
     background-size: 100%;
     user-select: none;
 }
 
-.car-front-center{
+.car-front-center {
     padding: $topSectionPadding;
     background-image: url(../img/car-front-center.png);
-    
 }
-.cars-by-sides{
+
+.cars-by-sides {
     background-image: url(../img/cars-by-sides.png);
 }
-.car-front-right{
+
+.car-front-right {
     background-image: url(../img/car-front-right.png);
 }
-.tachometer{
+
+.tachometer {
     background-image: url(../img/tachometer.png);
 }
 
-.car-details{
+.car-body {
+    margin-top: 15rem;
+    margin-bottom: 4rem;
+}
+
+.car {
+    height: 25rem;
+    width: 36rem;
+}
+
+.car-details {
     height: 41.5rem;
 }
 
-.price{
+.price {
     font-size: 12.5rem;
     font-weight: 100;
-    color:$third;
+    color: $third;
+    margin-bottom: 6.5rem;
 }
 
-.social{
+.bottom-menu {
+    height: 34.5rem;
+}
+
+.social {
     float: right;
-    
-    i{
+    i {
         margin: 0 1rem;
         display: inline-block;
     }
 }
 
-
 // Flex
 // ---------------------------------------------------
-.flex-container{
+.flex-container {
     display: flex;
 }
-.flex-container-column{
+
+.flex-container-column {
     flex-direction: column;
 }
-.flex-container-end{
-    justify-content:flex-end;
+
+.flex-container-end {
+    justify-content: flex-end;
 }
-.flex-container-center{
-    justify-content:center;
+
+.flex-container-center {
+    justify-content: center;
 }
-.flex-container-sb{
-    justify-content:space-between;
+
+.flex-container-sb {
+    justify-content: space-between;
 }
 
 // Other
 // ---------------------------------------------------
-.text-center{
+.text-center {
     text-align: center;
 }
-.color-prime{
-    color:$prime;
+
+.color-prime {
+    color: $prime;
 }
-.color-second{
-    color:$second;
+
+.color-second {
+    color: $second;
 }
-.color-third{
+
+.color-third {
     color: $third;
 }
-.circle{
+
+.circle {
     border-radius: 50%;
 }
-.circle-middle{
-    height: 18rem;
-    width: 18rem;
+
+.circle-middle {
+    height: 9rem;
+    width: 9rem;
+}
+
+// --------------------------------------------------
+// Media levels
+// --------------------------------------------------
+// -xs- (Default)
+// -------------------------
+// -sm- 
+// -------------------------
+@media only screen and (min-width: 768px) {
+    .container {
+        padding: $containerPaddingSM;
+    }
+    .circle-middle {
+        height: 11rem;
+        width: 11rem;
+    }
+    .car {
+        height: 27rem;
+        width: 38rem;
+    }
+}
+
+// -md-
+// -------------------------
+@media only screen and (min-width: 992px) {
+    .container {
+        padding: $containerPaddingMD;
+    }
+    .circle-middle {
+        height: 13rem;
+        width: 13rem;
+    }
+    .car {
+        height: 30rem;
+        width: 42rem;
+    }
+}
+
+// -lg-
+// -------------------------
+@media only screen and (min-width: 1200px) {
+    .container {
+        padding: $containerPaddingLG;
+    }
+    .circle-middle {
+        height: 18rem;
+        width: 18rem;
+    }
+    .car {
+        height: 39rem;
+        width: 52rem;
+    }
 }
